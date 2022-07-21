@@ -1,0 +1,26 @@
+<div class="container text-center my-3">
+    <div class="jumbotron" style="background-color: green;color: white;">
+        <h1>Process Info</h1>
+        <br>
+        <br>
+        <h3>Sistema Operativo: {{process.platform}}</h3>
+        <br>
+        <h3>PID proceso: {{process.pid}}</h3>
+        <br>
+        <h3>Node version: {{process.version}}</h3>
+        <br>
+        <h3>Memoria Reservada</h3>: {{process.memoryUsage.rss}}</h3>
+        <br>
+        <h3>Path ejecucion: {{process.execPath}}</h3>
+        <br>
+        <h3>Path trabajo: {{process.cwd}}</h3>
+        <br>
+        <h3>Argumentos: {{process.argv}}</h3>
+        <br>
+        <form action="/">
+            <div class="text-center"></div>
+            <button class="btn btn-info my-3">Back to home page</button>
+    </div>
+    </form>
+</div>
+</div>
